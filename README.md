@@ -35,3 +35,10 @@ example: sudo nano ~/.bashrc or sudo nano vim ~/.bashrc
 
 ### 2. Reload Bash  
 ✅ Done — no scripts, no sourcing other files.
+
+###Themes/prompts
+```bash
+bash
+source themes/blue.sh
+exit
+
