@@ -38,9 +38,5 @@ example: sudo nano ~/.bashrc or sudo nano vim ~/.bashrc
 
 ###Themes/prompts
 
-- Блок кода открывается с ```` ```bash ````  
-- Внутри пишем команду `bash`  
-- Закрываем блок тремя обратными кавычками ```` ``` ````  
-- После закрытия блока можно писать обычный текст, например пояснение:  
-  > This will start a new Bash session.
-
+ ```bash bsajnsdjsjd  ```
+ sudo testing
