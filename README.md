@@ -1,42 +1,27 @@
+### Blue
+```bash
+PS1="\[\e[48;5;18m\] \[\e[48;5;19m\]\u\[\e[48;5;20m\] \[\e[48;5;21m\] \[\e[0m\]\[\e[38;5;21m\]\[\e[0m\] "
 
+Red
 
-# 🎨 PS1-bash-prompts
+PS1="\[\e[48;5;52m\] \[\e[48;5;88m\]\u\[\e[48;5;124m\] \[\e[48;5;160m\] \[\e[0m\]\[\e[38;5;160m\]\[\e[0m\] "
 
-Beautiful and customizable **Bash PS1 prompts** with **real ANSI gradient backgrounds** behind text — no scripts, no dependencies, just pure Bash magic.
+Green
 
----
+PS1="\[\e[48;5;22m\] \[\e[48;5;28m\]\u\[\e[48;5;34m\] \[\e[48;5;40m\] \[\e[0m\]\[\e[38;5;40m\]\[\e[0m\] "
 
-## ✨ Features
+Purple
 
-- True gradient backgrounds directly in your PS1  
-- Works with any modern terminal (Kitty, Alacritty, GNOME Terminal, Konsole, etc.)  
-- Clean minimalist design — *no Powerline or Starship required*  
-- Easy setup: paste one line into `~/.bashrc`  
-- Includes multiple color variants (Blue, Red, Green, Purple, Gold)
+PS1="\[\e[48;5;54m\] \[\e[48;5;55m\]\u\[\e[48;5;91m\] \[\e[48;5;93m\] \[\e[0m\]\[\e[38;5;93m\]\[\e[0m\] "
 
----
+Yellow
 
-## 💡 How It Works
+PS1="\[\e[48;5;94m\] \[\e[48;5;130m\]\u\[\e[48;5;166m\] \[\e[48;5;220m\] \[\e[0m\]\[\e[38;5;220m\]\[\e[0m\] "
 
-Each prompt uses **ANSI escape codes** to draw a background gradient under your username (`\u`) and optionally ends with a Powerline arrow (``) if your font supports Nerd Fonts.
+Cyan
 
-Example visual layout:
+PS1="\[\e[48;5;23m\] \[\e[48;5;24m\]\u\[\e[48;5;31m\] \[\e[48;5;37m\] \[\e[0m\]\[\e[38;5;37m\]\[\e[0m\] "
 
-▉▉▉▉ user 
+White
 
-
----
-
-## 🧩 Installation
-
-### 1. Copy one of the prompt lines below  
-Paste it at the bottom of your `~/.bashrc`.
-example: sudo nano ~/.bashrc or sudo nano vim ~/.bashrc
-
-### 2. Reload Bash  
-✅ Done — no scripts, no sourcing other files.
-
-###Themes/prompts
-
- ```bash bsajnsdjsjd  ```
- sudo testing
+PS1="\[\e[48;5;233m\] \[\e[48;5;236m\]\u\[\e[48;5;239m\] \[\e[48;5;255m\] \[\e[0m\]\[\e[38;5;255m\]\[\
