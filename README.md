@@ -38,7 +38,7 @@ example: sudo nano ~/.bashrc or sudo nano vim ~/.bashrc
 
 ###Themes/prompts
 ```bash
+ыыаы
 bash
-source themes/blue.sh
-```markdown
+
 testing
