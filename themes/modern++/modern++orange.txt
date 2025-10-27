@@ -1,0 +1,7 @@
+# === Instructions ===
+# 1. Copy this block.
+# 2. Test it by pasting into your terminal.
+# 3. Add it to your ~/.bashrc for permanent use.
+# 4. Apply immediately: source ~/.bashrc
+
+PS1='\[\e[38;5;202m\]\[\e[48;5;202m\]\[\e[38;5;15m\] $(name="$(getent passwd "$USER" | cut -d: -f5 | cut -d, -f1)"; if [ -z "$name" ]; then printf "%s" "$USER"; else printf "%s" "$name"; fi) \W \[\e[0m\]\[\e[38;5;202m\]\[\e[0m\] ❯ '
